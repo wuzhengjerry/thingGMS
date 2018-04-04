@@ -6,3 +6,5 @@ define('WEB_SITE','http://www.thinkgms.net:8080/ThinkGms/');
 
 define('RUNTIME_PATH','./Runtime/');
 require './ThinkPHP/ThinkPHP.php';
+
+//就是这么简单
