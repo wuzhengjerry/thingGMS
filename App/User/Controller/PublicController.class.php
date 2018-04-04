@@ -20,7 +20,6 @@ class PublicController extends CoreController {
 					$this->error ( "账户或者密码不能为空，请重新输入！", U ( C ( 'AUTH_USER_GATEWAY' ) ) );
 				}
 				$map = array (
-						//'username|phone' => $username,
 						'username' => $username,
 						'password' => $password,
 						'status' => 1 
